@@ -1,0 +1,21 @@
+{
+  "name": "prettypkg",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Róbert Darida",
+  "homepage": "https://github.com/rdarida/prettypkg#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdarida/prettypkg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rdarida/prettypkg/issues"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "keywords": []
+}
