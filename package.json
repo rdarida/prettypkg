@@ -13,8 +13,12 @@
     "url": "https://github.com/rdarida/prettypkg/issues"
   },
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "tsc",
+    "prettier": "prettier . --check"
+  },
   "devDependencies": {
+    "prettier": "^3.4.2",
     "typescript": "^5.7.2"
   },
   "keywords": []
