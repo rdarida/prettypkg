@@ -1,7 +1,7 @@
 {
   "name": "prettypkg",
   "version": "0.0.1",
-  "description": "",
+  "description": "A command-line utility to format package.json files consistently.",
   "license": "MIT",
   "author": "Róbert Darida",
   "homepage": "https://github.com/rdarida/prettypkg#readme",
@@ -46,5 +46,11 @@
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
   },
-  "keywords": []
+  "keywords": [
+    "package",
+    "package.json",
+    "format",
+    "formatter",
+    "prettier"
+  ]
 }
