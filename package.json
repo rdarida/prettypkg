@@ -4,7 +4,7 @@
   "description": "A command-line utility to format package.json files consistently.",
   "license": "MIT",
   "author": "Róbert Darida",
-  "homepage": "https://github.com/rdarida/prettypkg#readme",
+  "homepage": "https://rdarida.github.io/prettypkg/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rdarida/prettypkg.git"
@@ -23,15 +23,15 @@
   "scripts": {
     "lint": "tsc",
     "prettier": "prettier . --check",
-    "predocs": "rimraf docs",
-    "docs": "typedoc --out docs --exclude \"src/cli.ts\" src",
     "pretest": "rimraf coverage",
     "test": "jest",
     "prebuild": "rimraf dist",
     "build": "tsup ./src/index.ts ./src/cli.ts --format cjs --dts --minify",
     "prepublishOnly": "npm run build",
     "release": "standard-version",
-    "postrelease": "git push --follow-tags origin HEAD"
+    "postrelease": "git push --follow-tags origin HEAD",
+    "predocs": "rimraf docs",
+    "docs": "typedoc --out docs --exclude \"src/cli.ts\" src"
   },
   "dependencies": {
     "yargs": "^17.7.2"
