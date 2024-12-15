@@ -12,7 +12,11 @@
   <a href="https://github.com/rdarida/prettypkg/actions/workflows/release.yml" target="_blank" alt="GitHub Actions">
     <img src="https://github.com/rdarida/prettypkg/actions/workflows/release.yml/badge.svg" alt="Release">
   </a>
-  
+
+  <a href="https://sonarcloud.io/dashboard?id=rdarida_prettypkg" target="_blank" alt="SonarCloud">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=rdarida_prettypkg&metric=coverage" alt="coverage">
+  </a>
+
   <img src="https://img.shields.io/librariesio/release/npm/prettypkg">
 </p>
 <hr>
