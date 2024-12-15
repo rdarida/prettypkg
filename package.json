@@ -51,8 +51,6 @@
   },
   "keywords": [
     "package",
-    "package.json",
-    "format",
     "formatter",
     "prettier"
   ]
