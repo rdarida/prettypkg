@@ -6,4 +6,4 @@
  */
 export type PackageJSON = any;
 
-export type ParticalPackageJSON = Partial<PackageJSON>;
+export type PartialPackageJSON = Partial<PackageJSON>;

@@ -1,9 +1,9 @@
-import { PackageJSON } from './PackageJSON';
+import { PartialPackageJSON } from './PackageJSON';
 
-export function format(pkgObj: Partial<PackageJSON>): Partial<PackageJSON> {
-  const prettyPkg: any = {};
+export function format(pkgObj: PartialPackageJSON): PartialPackageJSON {
+  const prettyPkg: PartialPackageJSON = {};
 
-  ['private', 'version', 'name', 'description'].forEach(key => {
+  ['private', 'name', 'version', 'description'].forEach(key => {
     const value = pkgObj[key];
     delete pkgObj[key];
 

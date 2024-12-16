@@ -15,8 +15,8 @@ describe('Test format', () => {
     expect(actual).toEqual(
       JSON.stringify({
         private: true,
-        version: '0.0.0',
         name: 'hello',
+        version: '0.0.0',
         description: 'Hello',
         author: 'John Doe'
       })
