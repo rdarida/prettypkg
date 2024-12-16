@@ -1,8 +1,2 @@
-/**
- * Returns a greeting message.
- *
- * @returns A greeting message.
- */
-export function greet(): string {
-  return 'Hello, prettypkg!';
-}
+export * from './format';
+export * from './PackageJSON';

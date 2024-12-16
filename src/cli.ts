@@ -1,19 +1,42 @@
 #!/usr/bin/env node
 import yargs from 'yargs';
 import { join } from 'path';
-import { existsSync } from 'fs';
+import { existsSync, readFileSync, writeFileSync } from 'fs';
+import { EOL } from 'os';
 
-import { greet } from '.';
+import { format } from '.';
 
 (argv => {
-  console.log(greet());
-  console.log(argv);
-
   const pkgPath = join(process.cwd(), 'package.json');
 
   if (!existsSync(pkgPath)) {
     return;
   }
 
-  console.log(join(process.cwd(), 'package.json'));
-})(yargs.scriptName('prettypkg').usage('$0 [args]').help().argv);
+  try {
+    const pkgOrig = readFileSync(pkgPath, { encoding: 'utf-8' });
+    const pkgObj = JSON.parse(pkgOrig);
+    const prettyPkg = JSON.stringify(format(pkgObj), null, 2);
+
+    if (argv.write) {
+      writeFileSync(pkgPath, prettyPkg + EOL);
+    } else {
+      console.log(prettyPkg);
+    }
+  } catch (e: any) {
+    console.error(e);
+  }
+})(
+  yargs
+    .scriptName('prettypkg')
+    .usage('$0 [options]')
+    .help()
+    .options({
+      write: {
+        type: 'boolean',
+        describe: 'Edit the files in-place.',
+        default: false
+      }
+    })
+    .parseSync()
+);
