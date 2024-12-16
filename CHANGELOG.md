@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/rdarida/prettypkg/compare/v0.0.8...v0.0.9) (2024-12-16)
+
+
+### Features
+
+* fix property order ([5917734](https://github.com/rdarida/prettypkg/commit/591773496a7d0bcc4e6aa6d808334db16ad7417f))
+
 ### [0.0.8](https://github.com/rdarida/prettypkg/compare/v0.0.7...v0.0.8) (2024-12-16)
 
 
