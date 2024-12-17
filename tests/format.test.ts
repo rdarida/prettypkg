@@ -12,6 +12,7 @@ describe('Test format', () => {
         types: './dist/index.d.ts',
         module: './dist/index.mjs',
         main: './dist/index.js',
+        exports: { lib: './lib/index.js' },
         bugs: 'www.bugs.com',
         repository: 'www.repository.com',
         homepage: 'www.homepage.com',
@@ -23,7 +24,8 @@ describe('Test format', () => {
         description: 'Description of prettypkg.',
         version: '0.0.0',
         name: 'prettypkg',
-        private: false
+        private: false,
+        config: {}
       })
     );
 
@@ -41,6 +43,7 @@ describe('Test format', () => {
         homepage: 'www.homepage.com',
         repository: 'www.repository.com',
         bugs: 'www.bugs.com',
+        exports: { lib: './lib/index.js' },
         main: './dist/index.js',
         module: './dist/index.mjs',
         types: './dist/index.d.ts',
@@ -48,7 +51,8 @@ describe('Test format', () => {
         files: ['dist'],
         scripts: {},
         dependencies: {},
-        devDependencies: {}
+        devDependencies: {},
+        config: {}
       })
     );
   });

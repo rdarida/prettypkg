@@ -59,6 +59,11 @@ export type PackageJSON = {
    */
   bugs: BugsProperty;
   /**
+   * Specifies which files or modules are exposed when
+   * the package is imported or required.
+   */
+  exports: string | Dictionary;
+  /**
    * Defines the entry point file for the package,
    * typically the main module or script.
    */
@@ -95,6 +100,11 @@ export type PackageJSON = {
    * such as testing or build tools.
    */
   devDependencies: Dictionary;
+  /**
+   * Defines configuration settings that can be used by
+   * scripts or tools within the package.
+   */
+  config: Dictionary;
 };
 
 type Dictionary = { [key: string]: string };

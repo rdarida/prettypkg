@@ -13,6 +13,7 @@ const PACKAGE_JSON_KEYS: (keyof PackageJSON)[] = [
   'homepage',
   'repository',
   'bugs',
+  'exports',
   'main',
   'module',
   'types',
