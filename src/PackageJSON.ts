@@ -67,7 +67,7 @@ export type PackageJSON = {
    * Specifies which files or modules are exposed when
    * the package is imported or required.
    */
-  exports: string | Dictionary;
+  exports: string | Dictionary<string>;
   /**
    * Defines the entry point file for the package,
    * typically the main module or script.
@@ -85,7 +85,7 @@ export type PackageJSON = {
   /**
    * Specifies the executable files or commands that the package provides.
    */
-  bin: string | Dictionary;
+  bin: string | Dictionary<string>;
   /**
    * Lists the files or directories to include when publishing the package.
    */
@@ -94,30 +94,35 @@ export type PackageJSON = {
    * Defines custom scripts that can be run using
    * npm commands (e.g., build, test).
    */
-  scripts: Dictionary;
+  scripts: Dictionary<string>;
   /**
    * Lists the packages required for the package
    * to function properly in production.
    */
-  dependencies: Dictionary;
+  dependencies: Dictionary<string>;
   /**
    * Lists the packages that are required by the package
    * but should be provided by the consuming project.
    */
-  peerDependencies: Dictionary;
+  peerDependencies: Dictionary<string>;
+  /**
+   * Provides additional metadata for peer dependencies,
+   * such as optional or specific configuration.
+   */
+  peerDependenciesMeta: Dictionary<any>;
   /**
    * Lists the packages required for development purposes,
    * such as testing or build tools.
    */
-  devDependencies: Dictionary;
+  devDependencies: Dictionary<string>;
   /**
    * Defines configuration settings that can be used by
    * scripts or tools within the package.
    */
-  config: Dictionary;
+  config: Dictionary<string>;
 };
 
-type Dictionary = { [key: string]: string };
+type Dictionary<T> = { [key: string]: T };
 
 type TypeAndUrl = {
   type: string;

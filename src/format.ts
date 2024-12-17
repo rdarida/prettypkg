@@ -23,6 +23,7 @@ const PACKAGE_JSON_KEYS: (keyof PackageJSON)[] = [
   'scripts',
   'dependencies',
   'peerDependencies',
+  'peerDependenciesMeta',
   'devDependencies'
 ];
 
