@@ -40,6 +40,10 @@ export type PackageJSON = {
    * Specifies ways to financially support the package or its maintainers.
    */
   funding: Funding;
+  /**
+   * The URL to the project homepage.
+   */
+  homepage: string;
 };
 
 type TypeAndUrl = {
