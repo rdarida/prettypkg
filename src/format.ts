@@ -1,7 +1,5 @@
 import { PackageJSON } from './PackageJSON';
 
-type PartialPackageJSON = Partial<PackageJSON>;
-
 const PACKAGE_JSON_KEYS: (keyof PackageJSON)[] = [
   'private',
   'name',
@@ -19,8 +17,8 @@ function getFormatter(key: keyof PackageJSON): Formatter {
   }
 }
 
-export function format(pkgObj: PartialPackageJSON): PartialPackageJSON {
-  let prettyPkg: PartialPackageJSON = {};
+export function format(pkgObj: Partial<PackageJSON>): Partial<PackageJSON> {
+  let prettyPkg: Partial<PackageJSON> = {};
 
   PACKAGE_JSON_KEYS.forEach(key => {
     if (!(key in pkgObj)) return;
