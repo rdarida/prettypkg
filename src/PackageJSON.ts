@@ -4,6 +4,10 @@
  * can be found at the following link:
  * https://docs.npmjs.com/cli/v10/configuring-npm/package-json
  */
-export type PackageJSON = any;
-
-export type PartialPackageJSON = Partial<PackageJSON>;
+export type PackageJSON = {
+  private: boolean;
+  name: string;
+  version: string;
+  description: string;
+  author: string;
+};
