@@ -1,7 +1,9 @@
 import { AuthorProperty } from './AuthorProperty';
+import { BugsProperty } from './BugsProperty';
 import { Dictionary } from './Dictionary';
+import { FundingProperty } from './FundingProperty';
 import { LicenseProperty } from './LicenseProperty';
-import { TypeAndUrl } from './TypeAndUrl';
+import { RepositoryProperty } from './RepositoryProperty';
 
 /**
  * This type represents a `package.json` file, the configuration file for npm packages.
@@ -141,14 +143,3 @@ export type PackageJSON = {
    */
   config: Dictionary<string>;
 };
-
-type FundingProperty = string | TypeAndUrl | TypeAndUrl[];
-
-type RepositoryProperty = string | (TypeAndUrl & { directory: string });
-
-type BugsProperty =
-  | string
-  | {
-      url: string;
-      email: string;
-    };
