@@ -101,6 +101,11 @@ export type PackageJSON = {
    */
   dependencies: Dictionary;
   /**
+   * Lists the packages that are required by the package
+   * but should be provided by the consuming project.
+   */
+  peerDependencies: Dictionary;
+  /**
    * Lists the packages required for development purposes,
    * such as testing or build tools.
    */
