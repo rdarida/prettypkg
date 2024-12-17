@@ -27,7 +27,6 @@ describe('Test format', () => {
         keywords: ['pretty', 'package'],
         description: 'Description of prettypkg.',
         version: '0.0.0',
-        productName: 'Pretty Package',
         name: 'prettypkg',
         private: false,
         config: {}
@@ -38,7 +37,6 @@ describe('Test format', () => {
       JSON.stringify({
         private: false,
         name: 'prettypkg',
-        productName: 'Pretty Package',
         version: '0.0.0',
         description: 'Description of prettypkg.',
         keywords: ['pretty', 'package'],
