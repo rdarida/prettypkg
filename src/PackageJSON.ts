@@ -53,6 +53,11 @@ export type PackageJSON = {
    * reporting issues or bugs in the package.
    */
   bugs: BugsProperty;
+  /**
+   * Defines the entry point file for the package,
+   * typically the main module or script.
+   */
+  main: string;
 };
 
 type TypeAndUrl = {
