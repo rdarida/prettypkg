@@ -3,6 +3,7 @@ import { PackageJSON } from './PackageJSON';
 const PACKAGE_JSON_KEYS: (keyof PackageJSON)[] = [
   'private',
   'name',
+  'productName',
   'version',
   'description',
   'keywords',

@@ -15,6 +15,11 @@ export type PackageJSON = {
    */
   name: string;
   /**
+   * Specifies the name of the product, often used
+   * in the app's packaging or installation process.
+   */
+  productName: string;
+  /**
    * Specifies the package version following semantic
    * versioning (major.minor.patch).
    */
