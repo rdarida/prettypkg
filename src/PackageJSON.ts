@@ -70,16 +70,24 @@ export type PackageJSON = {
   /**
    * Specifies the executable files or commands that the package provides.
    */
-  bin: string | { [key: string]: string };
+  bin: string | Dictionary;
   /**
    * Lists the files or directories to include when publishing the package.
    */
   files: string[];
   /**
-   * Defines custom scripts that can be run using npm commands (e.g., build, test).
+   * Defines custom scripts that can be run using
+   * npm commands (e.g., build, test).
    */
-  scripts: { [key: string]: string };
+  scripts: Dictionary;
+  /**
+   * Lists the packages required for the package
+   * to function properly in production.
+   */
+  dependencies: Dictionary;
 };
+
+type Dictionary = { [key: string]: string };
 
 type TypeAndUrl = {
   type: string;
