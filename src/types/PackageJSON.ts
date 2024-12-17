@@ -1,3 +1,4 @@
+import { AuthorProperty } from './AuthorProperty';
 import { Dictionary } from './Dictionary';
 import { LicenseProperty } from './LicenseProperty';
 import { TypeAndUrl } from './TypeAndUrl';
@@ -140,14 +141,6 @@ export type PackageJSON = {
    */
   config: Dictionary<string>;
 };
-
-type AuthorProperty =
-  | string
-  | {
-      name: string;
-      email: string;
-      url: string;
-    };
 
 type ContributorsProperty = AuthorProperty[];
 
