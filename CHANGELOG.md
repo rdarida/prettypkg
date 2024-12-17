@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.20](https://github.com/rdarida/prettypkg/compare/v0.0.19...v0.0.20) (2024-12-17)
+
+
+### Features
+
+* add exports property to PackageJSON type ([a77b319](https://github.com/rdarida/prettypkg/commit/a77b319f70f9d73feb55047f3332ff5550e44f15))
+
 ### [0.0.19](https://github.com/rdarida/prettypkg/compare/v0.0.18...v0.0.19) (2024-12-17)
 
 
