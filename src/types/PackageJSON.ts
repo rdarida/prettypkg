@@ -1,4 +1,5 @@
 import { AuthorProperty } from './AuthorProperty';
+import { ContributorsProperty } from './ContributorsProperty';
 import { Dictionary } from './Dictionary';
 import { LicenseProperty } from './LicenseProperty';
 import { TypeAndUrl } from './TypeAndUrl';
@@ -141,8 +142,6 @@ export type PackageJSON = {
    */
   config: Dictionary<string>;
 };
-
-type ContributorsProperty = AuthorProperty[];
 
 type FundingProperty = string | TypeAndUrl | TypeAndUrl[];
 
