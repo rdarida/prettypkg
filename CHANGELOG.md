@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.19](https://github.com/rdarida/prettypkg/compare/v0.0.18...v0.0.19) (2024-12-17)
+
+
+### Features
+
+* add devDependencies property to PackageJSON type ([101970b](https://github.com/rdarida/prettypkg/commit/101970b18ea73fbd25d64bfb2467e39fb2c61233))
+* add keywords property to PackageJSON type ([c812603](https://github.com/rdarida/prettypkg/commit/c81260387c7634e61907a4b7fa0000baad035f31))
+
 ### [0.0.18](https://github.com/rdarida/prettypkg/compare/v0.0.17...v0.0.18) (2024-12-17)
 
 
