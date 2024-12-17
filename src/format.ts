@@ -26,7 +26,8 @@ const PACKAGE_JSON_KEYS: (keyof PackageJSON)[] = [
   'peerDependenciesMeta',
   'optionalDependencies',
   'bundleDependencies',
-  'devDependencies'
+  'devDependencies',
+  'overrides'
 ];
 
 type Formatter = (value: any) => any;

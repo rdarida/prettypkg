@@ -126,6 +126,11 @@ export type PackageJSON = {
    */
   devDependencies: Dictionary<string>;
   /**
+   * Allows specifying package versions or configurations to
+   * override dependencies or their versions in the package tree.
+   */
+  overrides: Dictionary<string | any>;
+  /**
    * Defines configuration settings that can be used by
    * scripts or tools within the package.
    */
