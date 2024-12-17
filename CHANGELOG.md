@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.23](https://github.com/rdarida/prettypkg/compare/v0.0.22...v0.0.23) (2024-12-17)
+
+
+### Features
+
+* add peerDependenciesMeta property to PackageJSON type ([5674c4e](https://github.com/rdarida/prettypkg/commit/5674c4eace2649b6df60855e0897176c4faf029f))
+
 ### [0.0.22](https://github.com/rdarida/prettypkg/compare/v0.0.21...v0.0.22) (2024-12-17)
 
 
