@@ -71,6 +71,10 @@ export type PackageJSON = {
    * Specifies the executable files or commands that the package provides.
    */
   bin: string | { [key: string]: string };
+  /**
+   * Lists the files or directories to include when publishing the package.
+   */
+  files: string[];
 };
 
 type TypeAndUrl = {
