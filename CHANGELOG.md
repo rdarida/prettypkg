@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.17](https://github.com/rdarida/prettypkg/compare/v0.0.16...v0.0.17) (2024-12-17)
+
+
+### Features
+
+* add bin property to PackageJSON type ([d2fb449](https://github.com/rdarida/prettypkg/commit/d2fb449e2e0cec0b5d551b9856963c1d3524f8bb))
+* add files property to PackageJSON type ([9ba0e40](https://github.com/rdarida/prettypkg/commit/9ba0e400bf4b170552a0867f07ccacca735e7366))
+
 ### [0.0.16](https://github.com/rdarida/prettypkg/compare/v0.0.15...v0.0.16) (2024-12-17)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "prettypkg",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "A command-line utility to format package.json files consistently.",
   "license": "MIT",
   "author": "Róbert Darida",
