@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.26](https://github.com/rdarida/prettypkg/compare/v0.0.25...v0.0.26) (2024-12-17)
+
+
+### Features
+
+* add overrides property to PackageJSON type ([8d35f67](https://github.com/rdarida/prettypkg/commit/8d35f6723e4ce6dd4606c8612739ecef3b9595dd))
+
 ### [0.0.25](https://github.com/rdarida/prettypkg/compare/v0.0.24...v0.0.25) (2024-12-17)
 
 
