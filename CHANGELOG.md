@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/rdarida/prettypkg/compare/v0.0.10...v0.0.11) (2024-12-17)
+
+
+### Features
+
+* add default formatter function ([f6dd228](https://github.com/rdarida/prettypkg/commit/f6dd22806ee6bf7e32d6579bfb1f336aaef1872c))
+
 ### [0.0.10](https://github.com/rdarida/prettypkg/compare/v0.0.9...v0.0.10) (2024-12-17)
 
 
