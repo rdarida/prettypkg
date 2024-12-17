@@ -5,9 +5,58 @@
  * https://docs.npmjs.com/cli/v10/configuring-npm/package-json
  */
 export type PackageJSON = {
+  /**
+   * Indicates whether the package is private, preventing
+   * it from being published to the npm registry.
+   */
   private: boolean;
+  /**
+   * The unique identifier and name of the package.
+   */
   name: string;
+  /**
+   * Specifies the package version following semantic
+   * versioning (major.minor.patch).
+   */
   version: string;
+  /**
+   * A brief summary of the package's purpose or functionality.
+   */
   description: string;
-  author: string;
+  /**
+   * Specifies the license under which the package is distributed.
+   */
+  license: License;
+  /**
+   * Specifies the name and contact information of the package's author.
+   */
+  author: Author;
+  /**
+   * Lists additional individuals or organizations
+   * who contributed to the package.
+   */
+  contributors: Contributors;
+  /**
+   * Specifies ways to financially support the package or its maintainers.
+   */
+  funding: Funding;
 };
+
+type TypeAndUrl = {
+  type: string;
+  url: string;
+};
+
+export type License = string | TypeAndUrl | TypeAndUrl[];
+
+export type Author =
+  | string
+  | {
+      name: string;
+      email: string;
+      url: string;
+    };
+
+export type Contributors = Author[];
+
+export type Funding = string | TypeAndUrl | TypeAndUrl[];
