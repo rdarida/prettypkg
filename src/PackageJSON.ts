@@ -116,6 +116,11 @@ export type PackageJSON = {
    */
   optionalDependencies: Dictionary<string>;
   /**
+   * Specifies the packages that should be bundled when the package is
+   * published, ensuring they are included in the distribution.
+   */
+  bundleDependencies: boolean | string[];
+  /**
    * Lists the packages required for development purposes,
    * such as testing or build tools.
    */

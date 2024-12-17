@@ -5,6 +5,7 @@ describe('Test format', () => {
     const actual = JSON.stringify(
       format({
         devDependencies: {},
+        bundleDependencies: true,
         optionalDependencies: {},
         peerDependenciesMeta: {},
         peerDependencies: {},
@@ -59,6 +60,7 @@ describe('Test format', () => {
         peerDependencies: {},
         peerDependenciesMeta: {},
         optionalDependencies: {},
+        bundleDependencies: true,
         devDependencies: {},
         config: {}
       })
