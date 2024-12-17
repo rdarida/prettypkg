@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.24](https://github.com/rdarida/prettypkg/compare/v0.0.23...v0.0.24) (2024-12-17)
+
+
+### Features
+
+* add optionalDependencies property to PackageJSON type ([876f883](https://github.com/rdarida/prettypkg/commit/876f8835cefdde5b8bc407ad97537b4a66f95014))
+
 ### [0.0.23](https://github.com/rdarida/prettypkg/compare/v0.0.22...v0.0.23) (2024-12-17)
 
 
