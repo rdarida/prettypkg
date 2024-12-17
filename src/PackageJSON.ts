@@ -111,6 +111,11 @@ export type PackageJSON = {
    */
   peerDependenciesMeta: Dictionary<any>;
   /**
+   * Lists the packages that are not required for the package to function,
+   * but will be installed if available.
+   */
+  optionalDependencies: Dictionary<string>;
+  /**
    * Lists the packages required for development purposes,
    * such as testing or build tools.
    */
