@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.15](https://github.com/rdarida/prettypkg/compare/v0.0.14...v0.0.15) (2024-12-17)
+
+
+### Features
+
+* add bugs property to PackageJSON type ([2364c2e](https://github.com/rdarida/prettypkg/commit/2364c2eeecd3ec86c446d9778b84e1ec8453cf8c))
+
 ### [0.0.14](https://github.com/rdarida/prettypkg/compare/v0.0.13...v0.0.14) (2024-12-17)
 
 
