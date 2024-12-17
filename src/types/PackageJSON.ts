@@ -1,3 +1,5 @@
+import { Dictionary } from './Dictionary';
+
 /**
  * This type represents a `package.json` file, the configuration file for npm packages.
  * The official documentation describing all possible properties of `package.json`
@@ -136,8 +138,6 @@ export type PackageJSON = {
    */
   config: Dictionary<string>;
 };
-
-type Dictionary<T> = { [key: string]: T };
 
 type TypeAndUrl = {
   type: string;
