@@ -12,7 +12,9 @@ const PACKAGE_JSON_KEYS: (keyof PackageJSON)[] = [
   'homepage',
   'repository',
   'bugs',
-  'main'
+  'main',
+  'module',
+  'types'
 ];
 
 type Formatter = (value: any) => any;

@@ -58,6 +58,15 @@ export type PackageJSON = {
    * typically the main module or script.
    */
   main: string;
+  /**
+   * Specifies the entry point for an ES module version of the package.
+   */
+  module: string;
+  /**
+   * Points to the type definition file for the package,
+   * providing TypeScript type information.
+   */
+  types: string;
 };
 
 type TypeAndUrl = {
