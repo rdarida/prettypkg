@@ -1,4 +1,5 @@
 import { Dictionary } from './Dictionary';
+import { TypeAndUrl } from './TypeAndUrl';
 
 /**
  * This type represents a `package.json` file, the configuration file for npm packages.
@@ -137,11 +138,6 @@ export type PackageJSON = {
    * scripts or tools within the package.
    */
   config: Dictionary<string>;
-};
-
-type TypeAndUrl = {
-  type: string;
-  url: string;
 };
 
 type LicenseProperty = string | TypeAndUrl | TypeAndUrl[];
