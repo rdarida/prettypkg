@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.16](https://github.com/rdarida/prettypkg/compare/v0.0.15...v0.0.16) (2024-12-17)
+
+
+### Features
+
+* add main property to PackageJSON type ([327e830](https://github.com/rdarida/prettypkg/commit/327e8304a839864ed93c3ea693786f05b8649713))
+* add types property to PackageJSON type ([924ed7d](https://github.com/rdarida/prettypkg/commit/924ed7d511ecb782e1e3397df82b276372b0a528))
+
 ### [0.0.15](https://github.com/rdarida/prettypkg/compare/v0.0.14...v0.0.15) (2024-12-17)
 
 
