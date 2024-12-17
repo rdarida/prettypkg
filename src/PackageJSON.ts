@@ -75,6 +75,10 @@ export type PackageJSON = {
    * Lists the files or directories to include when publishing the package.
    */
   files: string[];
+  /**
+   * Defines custom scripts that can be run using npm commands (e.g., build, test).
+   */
+  scripts: { [key: string]: string };
 };
 
 type TypeAndUrl = {

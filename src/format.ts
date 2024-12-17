@@ -16,7 +16,8 @@ const PACKAGE_JSON_KEYS: (keyof PackageJSON)[] = [
   'module',
   'types',
   'bin',
-  'files'
+  'files',
+  'scripts'
 ];
 
 type Formatter = (value: any) => any;
