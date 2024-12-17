@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.21](https://github.com/rdarida/prettypkg/compare/v0.0.20...v0.0.21) (2024-12-17)
+
+
+### Features
+
+* add productName property to PackageJSON type ([61c0950](https://github.com/rdarida/prettypkg/commit/61c0950a78e312b86b9125170eb836b5db31bb09))
+
 ### [0.0.20](https://github.com/rdarida/prettypkg/compare/v0.0.19...v0.0.20) (2024-12-17)
 
 
