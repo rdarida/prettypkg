@@ -1,4 +1,4 @@
-import { PackageJSON } from './PackageJSON';
+import { PackageJSON } from './types';
 
 const PACKAGE_JSON_KEYS: (keyof PackageJSON)[] = [
   'private',
