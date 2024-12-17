@@ -26,20 +26,20 @@ export type PackageJSON = {
   /**
    * Specifies the license under which the package is distributed.
    */
-  license: License;
+  license: LicenseProperty;
   /**
    * Specifies the name and contact information of the package's author.
    */
-  author: Author;
+  author: AuthorProperty;
   /**
    * Lists additional individuals or organizations
    * who contributed to the package.
    */
-  contributors: Contributors;
+  contributors: ContributorsProperty;
   /**
    * Specifies ways to financially support the package or its maintainers.
    */
-  funding: Funding;
+  funding: FundingProperty;
   /**
    * The URL to the project homepage.
    */
@@ -47,7 +47,12 @@ export type PackageJSON = {
   /**
    * Provides the URL or details of the package's source code repository.
    */
-  repository: Repository;
+  repository: RepositoryProperty;
+  /**
+   * pecifies the URL or contact information for
+   * reporting issues or bugs in the package.
+   */
+  bugs: BugsProperty;
 };
 
 type TypeAndUrl = {
@@ -55,9 +60,9 @@ type TypeAndUrl = {
   url: string;
 };
 
-export type License = string | TypeAndUrl | TypeAndUrl[];
+type LicenseProperty = string | TypeAndUrl | TypeAndUrl[];
 
-export type Author =
+type AuthorProperty =
   | string
   | {
       name: string;
@@ -65,8 +70,15 @@ export type Author =
       url: string;
     };
 
-export type Contributors = Author[];
+type ContributorsProperty = AuthorProperty[];
 
-export type Funding = string | TypeAndUrl | TypeAndUrl[];
+type FundingProperty = string | TypeAndUrl | TypeAndUrl[];
 
-export type Repository = string | (TypeAndUrl & { directory: string });
+type RepositoryProperty = string | (TypeAndUrl & { directory: string });
+
+type BugsProperty =
+  | string
+  | {
+      url: string;
+      email: string;
+    };
