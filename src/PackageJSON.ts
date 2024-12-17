@@ -69,4 +69,4 @@ export type Contributors = Author[];
 
 export type Funding = string | TypeAndUrl | TypeAndUrl[];
 
-export type Repository = string | TypeAndUrl & { directory: string };
+export type Repository = string | (TypeAndUrl & { directory: string });
