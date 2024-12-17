@@ -1,5 +1,4 @@
 import { AuthorProperty } from './AuthorProperty';
-import { ContributorsProperty } from './ContributorsProperty';
 import { Dictionary } from './Dictionary';
 import { LicenseProperty } from './LicenseProperty';
 import { TypeAndUrl } from './TypeAndUrl';
@@ -51,7 +50,7 @@ export type PackageJSON = {
    * Lists additional individuals or organizations
    * who contributed to the package.
    */
-  contributors: ContributorsProperty;
+  contributors: AuthorProperty[];
   /**
    * Specifies ways to financially support the package or its maintainers.
    */
