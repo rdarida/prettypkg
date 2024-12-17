@@ -44,6 +44,10 @@ export type PackageJSON = {
    * The URL to the project homepage.
    */
   homepage: string;
+  /**
+   * Provides the URL or details of the package's source code repository.
+   */
+  repository: Repository;
 };
 
 type TypeAndUrl = {
@@ -64,3 +68,5 @@ export type Author =
 export type Contributors = Author[];
 
 export type Funding = string | TypeAndUrl | TypeAndUrl[];
+
+export type Repository = string | TypeAndUrl & { directory: string };
