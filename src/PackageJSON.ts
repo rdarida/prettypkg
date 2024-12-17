@@ -85,6 +85,11 @@ export type PackageJSON = {
    * to function properly in production.
    */
   dependencies: Dictionary;
+  /**
+   * Lists the packages required for development purposes,
+   * such as testing or build tools.
+   */
+  devDependencies: Dictionary;
 };
 
 type Dictionary = { [key: string]: string };
