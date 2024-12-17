@@ -5,6 +5,7 @@ const PACKAGE_JSON_KEYS: (keyof PackageJSON)[] = [
   'name',
   'version',
   'description',
+  'keywords',
   'license',
   'author',
   'contributors',

@@ -24,6 +24,11 @@ export type PackageJSON = {
    */
   description: string;
   /**
+   * Specifies an array of terms that help identify and
+   * categorize the package for search purposes.
+   */
+  keywords: string[];
+  /**
    * Specifies the license under which the package is distributed.
    */
   license: LicenseProperty;
