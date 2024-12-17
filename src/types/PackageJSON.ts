@@ -1,4 +1,5 @@
 import { Dictionary } from './Dictionary';
+import { LicenseProperty } from './LicenseProperty';
 import { TypeAndUrl } from './TypeAndUrl';
 
 /**
@@ -139,8 +140,6 @@ export type PackageJSON = {
    */
   config: Dictionary<string>;
 };
-
-type LicenseProperty = string | TypeAndUrl | TypeAndUrl[];
 
 type AuthorProperty =
   | string
