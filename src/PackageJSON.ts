@@ -67,6 +67,10 @@ export type PackageJSON = {
    * providing TypeScript type information.
    */
   types: string;
+  /**
+   * Specifies the executable files or commands that the package provides.
+   */
+  bin: string | { [key: string]: string };
 };
 
 type TypeAndUrl = {
