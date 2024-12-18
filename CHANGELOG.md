@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.38](https://github.com/rdarida/prettypkg/compare/v0.0.37...v0.0.38) (2024-12-18)
+
+
+### Features
+
+* use os.EOL ([a0e8e47](https://github.com/rdarida/prettypkg/commit/a0e8e4759a3f4ef64ec657a18699a0c202676776))
+
 ### [0.0.37](https://github.com/rdarida/prettypkg/compare/v0.0.36...v0.0.37) (2024-12-18)
 
 
