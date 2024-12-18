@@ -2,7 +2,7 @@
 import yargs from 'yargs';
 import { join } from 'path';
 import { existsSync, readFileSync, writeFileSync } from 'fs';
-import { EOL } from 'os';
+import { detectNewlineGraceful } from 'detect-newline';
 
 import { format } from '.';
 
@@ -14,12 +14,13 @@ import { format } from '.';
   }
 
   try {
-    const pkgOrig = readFileSync(pkgPath, { encoding: 'utf-8' });
-    const pkgObj = JSON.parse(pkgOrig);
+    const pkgRaw = readFileSync(pkgPath, { encoding: 'utf-8' });
+    const eol = detectNewlineGraceful(pkgRaw);
+    const pkgObj = JSON.parse(pkgRaw);
     const prettyPkg = JSON.stringify(format(pkgObj), null, 2);
 
     if (argv.write) {
-      writeFileSync(pkgPath, prettyPkg + EOL);
+      writeFileSync(pkgPath, prettyPkg + eol);
     } else {
       console.log(prettyPkg);
     }

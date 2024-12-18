@@ -34,6 +34,7 @@
     "docs": "typedoc --out docs --exclude \"src/cli.ts\" src"
   },
   "dependencies": {
+    "detect-newline": "^4.0.1",
     "yargs": "^17.7.2"
   },
   "devDependencies": {
