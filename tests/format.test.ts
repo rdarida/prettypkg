@@ -36,7 +36,6 @@ describe('Test format', () => {
 
     expect(actual).toEqual(
       JSON.stringify({
-        private: false,
         name: 'prettypkg',
         version: '0.0.0',
         description: 'Description of prettypkg.',

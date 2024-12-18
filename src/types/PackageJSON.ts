@@ -143,3 +143,5 @@ export type PackageJSON = {
    */
   config: Dictionary<string>;
 };
+
+export type Key = keyof PackageJSON;

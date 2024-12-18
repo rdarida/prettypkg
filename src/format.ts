@@ -1,7 +1,7 @@
+import { Key, PackageJSON } from './types';
 import { getFormatter } from './formatters';
-import { PackageJSON } from './types';
 
-const PACKAGE_JSON_KEYS: (keyof PackageJSON)[] = [
+const PACKAGE_JSON_KEYS: Key[] = [
   'private',
   'name',
   'productName',
@@ -38,7 +38,7 @@ export function format(pkgObj: Partial<PackageJSON>): Partial<PackageJSON> {
     if (!(key in pkgObj)) return;
 
     const formatter = getFormatter(key);
-    const value = formatter(pkgObj[key]);
+    const value = formatter(key, pkgObj);
     delete pkgObj[key];
 
     if (value !== undefined) {
