@@ -1,2 +1,2 @@
-export * from './types/PackageJSON';
+export * from './types';
 export * from './format';
