@@ -1,5 +1,6 @@
 import { Key, PackageJSON } from './types';
 import { getFormatter } from './formatters';
+import { sortProperties } from './utils';
 
 const packageJsonKeys: Key[] = [
   'private',
@@ -46,5 +47,5 @@ export function format(pkgObj: Partial<PackageJSON>): Partial<PackageJSON> {
     }
   });
 
-  return { ...prettyPkg, ...pkgObj };
+  return { ...prettyPkg, ...sortProperties(pkgObj) };
 }
