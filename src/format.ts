@@ -1,3 +1,4 @@
+import { getFormatter } from './formatters';
 import { PackageJSON } from './types';
 
 const PACKAGE_JSON_KEYS: (keyof PackageJSON)[] = [
@@ -29,15 +30,6 @@ const PACKAGE_JSON_KEYS: (keyof PackageJSON)[] = [
   'devDependencies',
   'overrides'
 ];
-
-type Formatter = (value: any) => any;
-
-function getFormatter(key: keyof PackageJSON): Formatter {
-  switch (key) {
-    default:
-      return (value: any) => value;
-  }
-}
 
 export function format(pkgObj: Partial<PackageJSON>): Partial<PackageJSON> {
   let prettyPkg: Partial<PackageJSON> = {};
