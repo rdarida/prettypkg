@@ -38,7 +38,7 @@ jobs:
           npm run lint
           npm test
 
-      - name: Release and publish
+      - name: Publish
         run: |
           npm run release
           npm publish
