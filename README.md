@@ -1,5 +1,4 @@
-<h1 align="center">prettypkg</h1>
-<p align="center">A command-line utility to format package.json files consistently.</p>
+<img src="https://repository-images.githubusercontent.com/903297410/65d887b3-56f7-49bb-8b51-30d7000073d5">
 <p align="center">
   <a href="https://rdarida.github.io/prettypkg/" target="_blank">
     <img src="https://img.shields.io/badge/website-blue?style=flat" />
