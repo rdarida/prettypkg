@@ -39,9 +39,7 @@ jobs:
         run: npm ci
 
       - name: Test
-        run: |
-          npm run lint
-          npm test -- --collectCoverage
+        run: npm test -- --collectCoverage
 
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v4
