@@ -1,11 +1,14 @@
 name: Deploy to GitHub Pages
 
 on:
+  workflow_run:
+    workflows: ['Release']
+    types:
+      - completed
+
   push:
     branches:
       - main
-    paths:
-      - CHANGELOG.md
 
   workflow_dispatch:
 
@@ -20,6 +23,7 @@ concurrency:
 
 job:
   build:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
