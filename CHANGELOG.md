@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.44 (2025-03-04)
+
+
+### Features
+
+* format type property ([6e85065](https://github.com/rdarida/prettypkg/commit/6e8506534e0e4cfe9a68f52c486f60f339890a7e))
+
 ### 0.0.43 (2025-01-10)
 
 ### 0.0.42 (2025-01-10)
