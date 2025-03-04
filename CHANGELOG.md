@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.46](https://github.com/rdarida/prettypkg/compare/v0.0.44...v0.0.46) (2025-03-04)
+
+
+### Features
+
+* implement test.yml ([bebaa59](https://github.com/rdarida/prettypkg/commit/bebaa59d2f2d2ff261eadd97658b1f745bb8a881))
+
+
+### Bug Fixes
+
+* add GITHUB_TOKEN to release.yml ([d443a09](https://github.com/rdarida/prettypkg/commit/d443a0945fc1e41999f97b270683d6d9e536c6b7))
+* add pull-requests write permission ([483477a](https://github.com/rdarida/prettypkg/commit/483477a120cd93c483e89df2f99f527c3d703207))
+* fix name in test.yml ([6021838](https://github.com/rdarida/prettypkg/commit/602183800fcb821b9240065c2821a17c247a6a3d))
+* simplify publish action ([299cd2a](https://github.com/rdarida/prettypkg/commit/299cd2a377ca4440f24e9be1e942271d0d70d8ec))
+
+### [0.0.45](https://github.com/rdarida/prettypkg/compare/v0.0.44...v0.0.45) (2025-03-04)
+
+
+### Features
+
+* implement test.yml ([bebaa59](https://github.com/rdarida/prettypkg/commit/bebaa59d2f2d2ff261eadd97658b1f745bb8a881))
+
+
+### Bug Fixes
+
+* add GITHUB_TOKEN to release.yml ([d443a09](https://github.com/rdarida/prettypkg/commit/d443a0945fc1e41999f97b270683d6d9e536c6b7))
+* add pull-requests write permission ([483477a](https://github.com/rdarida/prettypkg/commit/483477a120cd93c483e89df2f99f527c3d703207))
+* fix name in test.yml ([6021838](https://github.com/rdarida/prettypkg/commit/602183800fcb821b9240065c2821a17c247a6a3d))
+* simplify publish action ([299cd2a](https://github.com/rdarida/prettypkg/commit/299cd2a377ca4440f24e9be1e942271d0d70d8ec))
+
 ### 0.0.44 (2025-03-04)
 
 
