@@ -16,6 +16,7 @@ const packageJsonKeys: Key[] = [
   'homepage',
   'repository',
   'bugs',
+  'type',
   'exports',
   'main',
   'module',

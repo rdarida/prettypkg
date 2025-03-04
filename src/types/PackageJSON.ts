@@ -71,6 +71,11 @@ export type PackageJSON = {
    */
   bugs: BugsProperty;
   /**
+   * Defines the module format that Node.js uses for all .js files that have
+   * that package.json file as their nearest parent.
+   */
+  type: string;
+  /**
    * Specifies which files or modules are exposed when
    * the package is imported or required.
    */
