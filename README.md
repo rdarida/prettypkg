@@ -1,7 +1,7 @@
 <img src="https://repository-images.githubusercontent.com/903297410/65d887b3-56f7-49bb-8b51-30d7000073d5">
 <p align="center">
-  <a href="https://rdarida.github.io/prettypkg/" target="_blank">
-    <img src="https://img.shields.io/badge/website-blue?style=flat" />
+  <a href="https://npmjs.com/package/prettypkg/" target="_blank">
+    <img src="https://img.shields.io/npm/v/prettypkg.svg" />
   </a>
 
   <a href="https://github.com/rdarida/prettypkg" target="_blank">
@@ -14,6 +14,12 @@
 
   <img src="https://img.shields.io/librariesio/release/npm/prettypkg">
 </p>
+<hr>
+
+## Documentation
+
+See documentation [here](https://rdarida.github.io/prettypkg/).
+
 <hr>
 
 <details>
