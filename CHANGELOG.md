@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.47](https://github.com/rdarida/prettypkg/compare/v0.0.46...v0.0.47) (2025-03-05)
+
+
+### Features
+
+* add dependabot-auto-merge.yml ([499d0a9](https://github.com/rdarida/prettypkg/commit/499d0a93c39c2c2ff84856a0e07e839a6696cc6c))
+* configure dependabot ([682cccf](https://github.com/rdarida/prettypkg/commit/682cccfd3a21abf85a4ed31a31435d4e448f3755))
+* limit dependabot pr-s to 1 ([3161553](https://github.com/rdarida/prettypkg/commit/31615538f62058d00c9b2bb687d994920008f955))
+
+
+### Bug Fixes
+
+* use npm install instead of npm ci in test.yml ([fcf872a](https://github.com/rdarida/prettypkg/commit/fcf872a1cc6445add992250406eee1093fc81ba8))
+
 ### [0.0.46](https://github.com/rdarida/prettypkg/compare/v0.0.44...v0.0.46) (2025-03-04)
 
 
