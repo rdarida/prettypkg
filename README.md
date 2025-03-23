@@ -28,7 +28,7 @@ npx prettypgk@latest --write
 {
   "licence": "MIT",
   "keywords": ["package", "formatter", "prettier"],
-  "description": "A command-line utility to format package.json files consistently.",
+  "description": "A command-line utility to format package.json files consistently",
   "name": "prettypkg"
 }
 ```
@@ -37,7 +37,7 @@ npx prettypgk@latest --write
 ```json
 {
   "name": "prettypkg",
-  "description": "A command-line utility to format package.json files consistently.",
+  "description": "A command-line utility to format package.json files consistently",
   "keywords": ["package", "formatter", "prettier"],
   "licence": "MIT"
 }
