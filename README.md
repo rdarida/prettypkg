@@ -18,22 +18,35 @@
 
 ## Usage
 ```
-npx prettypgk --write
+npx prettypgk@latest --write
+```
+
+## Consistent key order
+
+**Input:**
+```json
+{
+  "licence": "MIT",
+  "keywords": ["package", "formatter", "prettier"],
+  "description": "A command-line utility to format package.json files consistently.",
+  "name": "prettypkg"
+}
+```
+
+**Output:**
+```json
+{
+  "name": "prettypkg",
+  "description": "A command-line utility to format package.json files consistently.",
+  "keywords": ["package", "formatter", "prettier"],
+  "licence": "MIT"
+}
 ```
 
 ## Documentation
 
 See documentation [here](https://rdarida.github.io/prettypkg/).
 
-<hr>
-
-<details>
-  <summary>
-    <strong>Resources</strong>
-  </summary>
-
-- TBD
-</details>
 <hr>
 
 <p align="center">
