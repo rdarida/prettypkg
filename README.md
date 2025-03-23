@@ -16,6 +16,11 @@
 </p>
 <hr>
 
+## Usage
+```
+npx prettypgk --write
+```
+
 ## Documentation
 
 See documentation [here](https://rdarida.github.io/prettypkg/).
