@@ -50,10 +50,15 @@ npx prettypgk@latest --write
 }
 ```
 
-## Documentation
+<hr>
 
-See documentation [here](https://rdarida.github.io/prettypkg/).
+<details>
+  <summary>
+    <strong>Resources<strong>
+  </summary>
 
+- [Documentation](https://rdarida.github.io/prettypkg/)
+</details>
 <hr>
 
 <p align="center">
