@@ -8,6 +8,10 @@
     <img src="https://img.shields.io/badge/-repository-222222?style=flat&logo=github" />
   </a>
 
+  <a href="https://github.com/rdarida/prettypkg/actions/workflows/publish.yml" target="_blank" alt="GitHub Actions">
+    <img src="https://github.com/rdarida/prettypkg/actions/workflows/publish.yml/badge.svg" alt="Publish">
+  </a>
+
   <a href="https://sonarcloud.io/dashboard?id=rdarida_prettypkg" target="_blank" alt="SonarCloud">
     <img src="https://sonarcloud.io/api/project_badges/measure?project=rdarida_prettypkg&metric=coverage" alt="coverage">
   </a>
@@ -15,6 +19,9 @@
   <img src="https://img.shields.io/librariesio/release/npm/prettypkg">
 </p>
 <hr>
+
+# prettypkg
+A command-line utility to format package.json files consistently
 
 ## Usage
 ```
