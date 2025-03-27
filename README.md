@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://npmjs.com/package/prettypkg/" target="_blank">
-    <img src="https://img.shields.io/npm/v/prettypkg.svg" />
+    <img src="https://img.shields.io/npm/v/prettypkg.svg" alt="NPM" />
   </a>
 
   <a href="https://github.com/rdarida/prettypkg" target="_blank">
