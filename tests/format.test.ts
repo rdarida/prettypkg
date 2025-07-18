@@ -5,12 +5,28 @@ describe('Test format', () => {
     const actual = JSON.stringify(
       format({
         overrides: {},
-        devDependencies: {},
+        devDependencies: {
+          'typescript': '0.0.0',
+          'jest': '0.0.0',
+          '@types/jest': '0.0.0'
+        },
         bundleDependencies: true,
-        optionalDependencies: {},
+        optionalDependencies: {
+          'typescript': '0.0.0',
+          'jest': '0.0.0',
+          '@types/jest': '0.0.0'
+        },
         peerDependenciesMeta: {},
-        peerDependencies: {},
-        dependencies: {},
+        peerDependencies: {
+          'typescript': '0.0.0',
+          'jest': '0.0.0',
+          '@types/jest': '0.0.0'
+        },
+        dependencies: {
+          'typescript': '0.0.0',
+          'jest': '0.0.0',
+          '@types/jest': '0.0.0'
+        },
         scripts: {},
         files: ['dist'],
         bin: './dist/cli.js',
@@ -56,12 +72,28 @@ describe('Test format', () => {
         bin: './dist/cli.js',
         files: ['dist'],
         scripts: {},
-        dependencies: {},
-        peerDependencies: {},
+        dependencies: {
+          '@types/jest': '0.0.0',
+          'jest': '0.0.0',
+          'typescript': '0.0.0'
+        },
+        peerDependencies: {
+          '@types/jest': '0.0.0',
+          'jest': '0.0.0',
+          'typescript': '0.0.0'
+        },
         peerDependenciesMeta: {},
-        optionalDependencies: {},
+        optionalDependencies: {
+          '@types/jest': '0.0.0',
+          'jest': '0.0.0',
+          'typescript': '0.0.0'
+        },
         bundleDependencies: true,
-        devDependencies: {},
+        devDependencies: {
+          '@types/jest': '0.0.0',
+          'jest': '0.0.0',
+          'typescript': '0.0.0'
+        },
         overrides: {},
         config: {}
       })

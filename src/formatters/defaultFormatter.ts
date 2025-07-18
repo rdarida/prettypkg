@@ -1,4 +1,4 @@
-import { Formatter, Key, PackageJSON } from '../types';
+import { Key, PackageJSON } from '../types';
 
 export function defaultFormatter(
   key: Key,
