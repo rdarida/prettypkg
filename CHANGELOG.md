@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/rdarida/prettypkg/compare/v1.1.0...v1.1.1) (2025-07-20)
+
+
+### Bug Fixes
+
+* use SonarSource@v5 ([d254b6f](https://github.com/rdarida/prettypkg/commit/d254b6f19339369e564a9a227cf05af5a4616a6c))
+
 ## [1.1.0](https://github.com/rdarida/prettypkg/compare/v1.0.2...v1.1.0) (2025-07-18)
 
 
