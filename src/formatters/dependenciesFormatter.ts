@@ -1,4 +1,5 @@
 import { Key, PackageJSON } from '../types';
+import { sortProperties } from '../utils';
 
 type Dependencies = { [key: string]: string };
 
@@ -11,11 +12,5 @@ export function dependenciesFormatter(
 
   if (!dependencies) return undefined;
 
-  Object.keys(dependencies)
-    .sort()
-    .forEach(k => {
-      result[k] = dependencies[k];
-    });
-
-  return result;
+  return sortProperties(dependencies);
 }

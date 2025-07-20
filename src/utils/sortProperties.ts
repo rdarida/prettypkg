@@ -2,7 +2,7 @@ export function sortProperties(obj: any): any {
   const sortedObj: any = {};
 
   Object.keys(obj)
-    .sort()
+    .sort((a, b) => a.localeCompare(b))
     .forEach(key => {
       sortedObj[key] = obj[key];
     });
