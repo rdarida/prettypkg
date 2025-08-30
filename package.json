@@ -1,6 +1,6 @@
 {
   "name": "prettypkg",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "A command-line utility to format package.json files consistently",
   "keywords": [
     "package",
@@ -37,7 +37,7 @@
     "docs": "typedoc"
   },
   "dependencies": {
-    "yargs": "^17.7.2"
+    "yargs": "^18.0.0"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
