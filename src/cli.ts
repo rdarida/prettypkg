@@ -27,7 +27,7 @@ import { format } from '.';
     console.error(e);
   }
 })(
-  yargs
+  yargs()
     .scriptName('prettypkg')
     .usage('$0 [options]')
     .help()
