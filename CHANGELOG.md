@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://github.com/rdarida/prettypkg/compare/v1.1.3...v1.1.4) (2025-08-30)
+
+
+### Bug Fixes
+
+* replace yargs' singleton usage with yargs() ([2b0ce26](https://github.com/rdarida/prettypkg/commit/2b0ce26b558fc414fde89c2cf27be0d56d52cdc9))
+
 ### [1.1.3](https://github.com/rdarida/prettypkg/compare/v1.1.2...v1.1.3) (2025-08-30)
 
 ### [1.1.2](https://github.com/rdarida/prettypkg/compare/v1.1.1...v1.1.2) (2025-07-20)
