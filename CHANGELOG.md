@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/rdarida/prettypkg/compare/v1.1.5...v1.2.0) (2025-10-02)
+
+
+### Features
+
+* upgrade yargs to v18 ([cc06520](https://github.com/rdarida/prettypkg/commit/cc065205615e3813b158152986e092e97397569e))
+
 ### [1.1.5](https://github.com/rdarida/prettypkg/compare/v1.1.4...v1.1.5) (2025-08-30)
 
 
