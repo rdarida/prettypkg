@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import yargs from 'yargs';
+import { hideBin } from 'yargs/helpers';
 import { join } from 'path';
 import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { EOL } from 'os';
@@ -27,7 +28,7 @@ import { format } from '.';
     console.error(e);
   }
 })(
-  yargs
+  yargs(hideBin(process.argv))
     .scriptName('prettypkg')
     .usage('$0 [options]')
     .help()
