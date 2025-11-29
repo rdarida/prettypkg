@@ -1,14 +1,11 @@
-import { Key, PackageJSON } from '../types';
+import { Dictionary, Key, PackageJSON } from '../types';
 import { sortProperties } from '../utils';
-
-type Dependencies = { [key: string]: string };
 
 export function dependenciesFormatter(
   key: Key,
   pkgOrig: Partial<PackageJSON>
-): Dependencies | undefined {
-  const result: Dependencies = {};
-  const dependencies = pkgOrig[key] as Dependencies;
+): Dictionary<string> | undefined {
+  const dependencies = pkgOrig[key] as Dictionary<string>;
 
   if (!dependencies) return undefined;
 

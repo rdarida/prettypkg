@@ -3,6 +3,7 @@ import { BugsProperty } from './BugsProperty';
 import { Dictionary } from './Dictionary';
 import { FundingProperty } from './FundingProperty';
 import { LicenseProperty } from './LicenseProperty';
+import { NestedDictionary } from './NestedDictionary';
 import { RepositoryProperty } from './RepositoryProperty';
 
 /**
@@ -141,7 +142,7 @@ export type PackageJSON = {
    * Allows specifying package versions or configurations to
    * override dependencies or their versions in the package tree.
    */
-  overrides: Dictionary<string | any>;
+  overrides: NestedDictionary<string>;
   /**
    * Defines configuration settings that can be used by
    * scripts or tools within the package.
