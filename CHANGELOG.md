@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.2](https://github.com/rdarida/prettypkg/compare/v1.2.1...v1.2.2) (2025-11-29)
+
+
+### Bug Fixes
+
+* define type for PackageJSON.override property ([aab8838](https://github.com/rdarida/prettypkg/commit/aab88383b6b37180f0c4f4515a8203a245afec05))
+* eliminate any from defaultFormatter.ts ([9f2f74f](https://github.com/rdarida/prettypkg/commit/9f2f74f0f4db51dd304907e3b007b0e94ab0211d))
+* eliminate any from Formatter type ([5319e93](https://github.com/rdarida/prettypkg/commit/5319e938a1a70d20ca033bdbd8a2a7c3acf809d4))
+
 ### [1.2.1](https://github.com/rdarida/prettypkg/compare/v1.2.0...v1.2.1) (2025-11-29)
 
 
