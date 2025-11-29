@@ -36,8 +36,8 @@ const packageJsonKeys: Key[] = [
 export function format(pkgObj: Partial<PackageJSON>): Partial<PackageJSON> {
   let prettyPkg: Partial<PackageJSON> = {};
 
-  packageJsonKeys.forEach(key => {
-    if (!(key in pkgObj)) return;
+  for (const key of packageJsonKeys) {
+    if (!(key in pkgObj)) continue;
 
     const formatter = getFormatter(key);
     const value = formatter(key, pkgObj);
@@ -46,7 +46,7 @@ export function format(pkgObj: Partial<PackageJSON>): Partial<PackageJSON> {
     if (value !== undefined) {
       prettyPkg = { ...prettyPkg, [key]: value };
     }
-  });
+  }
 
   return { ...prettyPkg, ...sortProperties(pkgObj) };
 }
