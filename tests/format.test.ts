@@ -4,7 +4,15 @@ describe('Test format', () => {
   test('', () => {
     const actual = JSON.stringify(
       format({
-        overrides: {},
+        overrides: {
+          b: {
+            c: {
+              d: '1.0.0',
+              e: '1.0.0'
+            }
+          },
+          a: '1.0.0'
+        },
         devDependencies: {
           'typescript': '0.0.0',
           'jest': '0.0.0',
@@ -94,7 +102,15 @@ describe('Test format', () => {
           'jest': '0.0.0',
           'typescript': '0.0.0'
         },
-        overrides: {},
+        overrides: {
+          a: '1.0.0',
+          b: {
+            c: {
+              d: '1.0.0',
+              e: '1.0.0'
+            }
+          }
+        },
         config: {}
       })
     );
