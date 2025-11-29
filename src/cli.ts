@@ -1,9 +1,10 @@
 #!/usr/bin/env node
+import { join } from 'node:path';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+import { EOL } from 'node:os';
+
 import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
-import { join } from 'path';
-import { existsSync, readFileSync, writeFileSync } from 'fs';
-import { EOL } from 'os';
 
 import { format } from '.';
 
