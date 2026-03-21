@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.2.7](https://github.com/rdarida/prettypkg/compare/v1.2.6...v1.2.7) (2026-03-21)
+
 ## [1.2.6](https://github.com/rdarida/prettypkg/compare/v1.2.5...v1.2.6) (2026-03-16)
 
 ## [1.2.5](https://github.com/rdarida/prettypkg/compare/v1.2.4...v1.2.5) (2026-01-20)
