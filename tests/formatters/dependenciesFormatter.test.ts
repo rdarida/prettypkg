@@ -1,3 +1,5 @@
+import { describe, expect, test } from 'vitest';
+
 import { dependenciesFormatter } from '../../src/formatters/dependenciesFormatter';
 
 describe('Test dependenciesFormatter', () => {

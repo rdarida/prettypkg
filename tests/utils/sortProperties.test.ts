@@ -1,3 +1,5 @@
+import { describe, expect, test } from 'vitest';
+
 import { sortProperties } from '../../src/utils/sortProperties';
 
 describe('Test sortProperties', () => {
