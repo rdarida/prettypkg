@@ -6,6 +6,7 @@ export default defineConfig({
     coverage: {
       enabled: false, // npm test -- --coverage
       provider: 'istanbul',
+      reporter: ['text', 'html', 'lcov'],
       include: ['src/**/*.ts'],
       exclude: ['dist/', 'src/**/*.d.ts', 'src/cli.ts', 'tests/']
     },
