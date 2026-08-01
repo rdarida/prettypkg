@@ -1,3 +1,5 @@
+import { describe, expect, test } from 'vitest';
+
 import { privateFormatter } from '../../src/formatters/privateFormatter';
 
 describe('Test privateFormatter', () => {

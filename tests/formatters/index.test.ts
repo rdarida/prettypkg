@@ -1,3 +1,5 @@
+import { describe, expect, test } from 'vitest';
+
 import { getFormatter } from '../../src/formatters/index';
 
 describe('Test getFormatter', () => {
