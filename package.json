@@ -1,6 +1,6 @@
 {
   "name": "prettypkg",
-  "version": "1.2.14",
+  "version": "1.2.15",
   "description": "A command-line utility to format package.json files consistently",
   "keywords": [
     "package",
