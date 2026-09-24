@@ -22,10 +22,12 @@ import { format } from '.';
 
     if (argv.write) {
       writeFileSync(pkgPath, prettyPkg + EOL);
-    } else {
+    }
+    else {
       console.log(prettyPkg);
     }
-  } catch (e: any) {
+  }
+  catch (e: any) {
     console.error(e);
   }
 })(
