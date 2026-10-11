@@ -1,9 +1,9 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, it } from 'vitest';
 
-import { format } from '../src/index';
+import { prettypkg } from '../src';
 
 describe('Test exports', () => {
-  test('format should be exported', () => {
-    expect(format).toBeTruthy();
+  it('should export prettypkg function', () => {
+    expect(prettypkg).toBeDefined();
   });
 });
