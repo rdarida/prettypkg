@@ -1,0 +1,59 @@
+{
+  "overrides": {
+    "b": {
+      "c": {
+        "d": "1.0.0",
+        "e": "1.0.0"
+      }
+    },
+    "a": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "0.0.0",
+    "jest": "0.0.0",
+    "@types/jest": "0.0.0"
+  },
+  "bundleDependencies": true,
+  "optionalDependencies": {
+    "typescript": "0.0.0",
+    "jest": "0.0.0",
+    "@types/jest": "0.0.0"
+  },
+  "peerDependenciesMeta": {},
+  "peerDependencies": {
+    "typescript": "0.0.0",
+    "jest": "0.0.0",
+    "@types/jest": "0.0.0"
+  },
+  "dependencies": {
+    "typescript": "0.0.0",
+    "jest": "0.0.0",
+    "@types/jest": "0.0.0"
+  },
+  "scripts": {},
+  "files": ["dist"],
+  "bin": "./dist/cli.js",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "main": "./dist/index.js",
+  "exports": {
+    "lib": "./lib/index.js"
+  },
+  "type": "module",
+  "bugs": "www.bugs.com",
+  "repository": "www.repository.com",
+  "homepage": "www.homepage.com",
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.npmjs.com/package/prettypkg"
+  },
+  "contributors": ["Jane Doe"],
+  "author": "John Doe",
+  "license": "MIT",
+  "keywords": ["pretty", "package"],
+  "description": "Description of prettypkg.",
+  "version": "0.0.0",
+  "name": "prettypkg",
+  "private": false,
+  "config": {}
+}

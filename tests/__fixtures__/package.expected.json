@@ -1,0 +1,58 @@
+{
+  "name": "prettypkg",
+  "version": "0.0.0",
+  "description": "Description of prettypkg.",
+  "keywords": ["pretty", "package"],
+  "license": "MIT",
+  "author": "John Doe",
+  "contributors": ["Jane Doe"],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.npmjs.com/package/prettypkg"
+  },
+  "homepage": "www.homepage.com",
+  "repository": "www.repository.com",
+  "bugs": "www.bugs.com",
+  "type": "module",
+  "exports": {
+    "lib": "./lib/index.js"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "bin": "./dist/cli.js",
+  "files": ["dist"],
+  "scripts": {},
+  "dependencies": {
+    "@types/jest": "0.0.0",
+    "jest": "0.0.0",
+    "typescript": "0.0.0"
+  },
+  "peerDependencies": {
+    "@types/jest": "0.0.0",
+    "jest": "0.0.0",
+    "typescript": "0.0.0"
+  },
+  "peerDependenciesMeta": {},
+  "optionalDependencies": {
+    "@types/jest": "0.0.0",
+    "jest": "0.0.0",
+    "typescript": "0.0.0"
+  },
+  "bundleDependencies": true,
+  "devDependencies": {
+    "@types/jest": "0.0.0",
+    "jest": "0.0.0",
+    "typescript": "0.0.0"
+  },
+  "overrides": {
+    "a": "1.0.0",
+    "b": {
+      "c": {
+        "d": "1.0.0",
+        "e": "1.0.0"
+      }
+    }
+  },
+  "config": {}
+}
